@@ -88,3 +88,23 @@ a.logo {
     color: #fff;
 }
 
+
+
+
+/********************
+ youssef joe
+*********************/
+
+.icon{
+    border:2px solid gray;
+    padding: 8px;
+    font-size: 1.4em;
+    border-radius: 12%
+}
+.icon:hover{
+    border:2px solid #ec3237;
+    background-color: #ec3237;
+}
+.fa-dribbble:hover, .fa-behance:hover, .fa-github:hover ,.fa-google-plus-g:hover, .fa-twitter:hover, .fa-facebook:hover{
+    color: white!important
+}
