@@ -29,3 +29,62 @@ a {
     text-decoration: none;
 }
 
+.home {
+    background: url(images/slider-01.jpg) no-repeat center / 100% 100%;
+    height: 800px;
+}
+
+.home .nav {
+    padding: 0 100px;
+    overflow:auto;
+    background: rgba(0,0,0,0.8)
+}
+
+a.logo {
+    color: #ff305b;
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 18px 0;
+    float:left;
+}
+
+.home .nav ul {
+    float: right;
+}
+
+.home .nav li {
+    display: inline-block;
+    padding: 25px 10px;
+}
+
+.home .nav li a {
+    color: #fff
+}
+
+.home .main {
+    padding: 200px 0 324px;
+    text-align:center;
+    color:#fff;
+    background:rgba(0,0,0,0.8);
+}
+
+.home .main h4 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.home .main h1 {
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.home .main p {
+    font-size: 26px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
