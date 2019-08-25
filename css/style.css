@@ -87,6 +87,66 @@ a.logo {
     text-transform: capitalize;
     color: #fff;
 }
+.services {
+    padding: 100px 120px 54px;
+    background:#f1f1f1;
+    text-align:center;
+}
+
+.title h2 {
+    text-align:center;
+    font-size:40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position:relative;
+}
+
+.title h2:after {
+    width:70px;
+    color:#ff305b;
+    content:"";
+    border:1px solid #ff305b;
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    margin:auto;
+    padding:4px 0 5px;
+    border-left:0;
+    border-right:0;
+}
+
+.title h2:before {
+    width:160px;
+    content:"";
+    border:0.5px solid #ff305b;
+    position:absolute;
+    bottom:5px;;
+    right:0;
+    left:0;
+    margin:auto;
+}
+
+.services .item {
+    display:inline-block;
+    width: 23%;
+    padding: 5px;
+}
+
+.services .item h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top:20px;
+}
+
+.services .item p {
+    color:#555;
+    font-size:16px;
+    line-height:1.8
+}
 
 
 
