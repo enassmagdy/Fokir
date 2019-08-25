@@ -149,6 +149,66 @@ a.logo {
 }
 
 
+.Portfolio {
+    padding:100px 120px 54px;
+}
+
+.Portfolio .item {
+    width: 345px;
+    height: 258px;
+    display:inline-block;
+    margin:10px;
+    position:relative;
+}
+
+.Portfolio .item:after {
+    position:absolute;
+    content:"";
+    width:100%;
+    height:100%;
+    top:0;
+    right:0;
+    background:#000;
+    transition:all 0.5s ease-in-out;
+    opacity:0;
+}
+
+.Portfolio .item:hover:after {
+    opacity:0.5;
+    transition:all 0.5s ease-in-out;
+}
+
+.Portfolio .item img {
+    width:100%;
+}
+
+.statistics
+{
+    padding:100px 54px;
+    background:#f1f1f1;
+}
+
+.statistics .item
+{
+    text-align:center;
+    width:24%;
+    display:inline-block;
+}
+
+.statistics .item h4
+{
+    color:rgba(0,0,0,.75);
+    font-size:26px;
+    margin: 0 0 11px 0;
+}
+
+.statistics .item p
+{
+    color:#555555;
+    font-size:16px;
+    font-weight:600;
+    margin:0
+}
 
 
 /********************
