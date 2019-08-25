@@ -209,7 +209,191 @@ a.logo {
     font-weight:600;
     margin:0
 }
+.feedback {
+    padding:100px;
+}
 
+.feedback .content {
+    margin:auto;
+    width:60%;
+    background:#f1f1f1;
+    border-radius:5px;
+    padding:40px;
+    overflow:hidden;
+    position: relative;
+}
+
+.feedback .content:after {
+    content:"";
+    position:absolute;
+    top:0;
+    left: -159px;
+    border-color: #ff305b rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 160px;
+    height: 72px;
+    width: 0;
+    z-index: 1;
+}
+.feedback .img {
+    border-radius:50%;
+    overflow:hidden;
+    float:left;
+    width:110px;
+    height:110px;
+    z-index: 9;
+    position: relative;
+}
+
+.feedback .img img {
+    width:100%;
+}
+
+.feedback .text {
+    float:left;
+    width: 74%;
+    padding-left:40px;
+}
+
+.feedback .text h4 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.feedback .text span {
+    color:#777777;
+    font-size:15px;
+}
+
+.feedback .text span img {
+    position:relative;
+    top:3px;
+}
+
+.feedback .text p {
+    color:#555555;
+    font-size:16px;
+    line-height:1.5;
+    font-style:italic;
+    margin-top:10px;
+    
+}
+
+.blog {
+    padding:100px 60px; 
+    background:#f1f1f1;
+    text-align:center;
+}
+
+.blog .item {
+    width:30%;
+    display:inline-block;
+    margin:10px;
+    text-align:left;
+}
+
+.blog .item img  ,
+.blog iframe {
+    width:100%;
+}
+
+.blog .caption {
+    padding:20px;
+    background:#fff;
+}
+
+.blog .caption p.date {
+    margin-bottom: 15px;
+    color:#555555;
+}
+
+.blog .caption h4 {
+    color:#333;
+    font-size:24px;
+    font-weight:600;
+}
+
+.blog .caption p {
+    line-height:1.5;
+    color:#555555;
+    margin-bottom:10px;
+}
+
+.blog .caption a {
+    font-size:16px;
+    color: #333333;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog .caption a:hover {
+    color: #ff305b;
+}
+
+.contact {
+    padding:100px 0;
+}
+
+.contact form {
+    width:60%;
+    margin:auto;
+    text-align:center;
+}
+
+.contact form input {
+    width:46%;
+    padding:6px 12px;
+    height:40px;
+    border-radius:4px;
+    border:1px solid #ccc;
+    box-shadow:none;
+    margin-right: 17px;
+    color:#555;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.contact input.subject {
+    width:95%;
+    margin-top:25px;
+}
+
+.contact textarea {
+    border-radius:4px;
+    border:1px solid #ccc;
+    color:#555;
+    padding:6px 12px;
+    display: block;
+    width: 95%;
+    margin: 25px 10px;
+    height: 100px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.contact input:focus ,
+.contact input:hover ,
+.contact textarea:focus ,
+.contact textarea:hover {
+    box-shadow: none;
+    color: #000000;
+    outline: 0 none;
+    border-color: #ff305b;
+}
+
+.contact button {
+    float:left;
+    margin-left:10px;
+}
+
+.footer {
+    background: #333333;
+    padding: 50px 0;
+    text-align: center;
+    color:#fff;
+}
+
+.footer span {
+    color:#ff305b;
+}
 
 /********************
  youssef joe
